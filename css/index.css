@@ -21,8 +21,22 @@ body {
 		"Helvetica Neue",
 		sans-serif;
 }
+img {
+	display: block;
+	width: 100%;
+}
 ol.chrono {
 	span {
 		background-color: blanchedalmond;
 	}
+}
+table,
+th,
+td {
+	border: 1px solid grey;
+	border-collapse: collapse;
+}
+th,
+td {
+	padding: 0.2em 0.5em;
 }
